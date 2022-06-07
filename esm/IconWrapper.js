@@ -3,7 +3,6 @@ import { template, spread, insert, memo, effect, setAttribute, style } from 'sol
 const _tmpl$ = template(`<svg fill="currentColor" strokeWidth="0" xmlns="http://www.w3.org/2000/svg"></svg>`, 2),
       _tmpl$2 = template(`<title></title>`, 2);
 
-// remove IntrinsicElements declaration 💫
 function IconTemplate(iconSrc, props) {
   return (() => {
     const _el$ = _tmpl$.cloneNode(true);

@@ -1,0 +1,27 @@
+{
+  "name": "solid-icons",
+  "author": "Ignacio Zsabo",
+  "version": "0.4.13",
+  "description": "The standard for using icons in SolidJS",
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "esm/IconWrapper.js",
+  "types": "types/IconWrapper.d.ts",
+  "keywords": [
+    "icons",
+    "svg",
+    "pack",
+    "solidjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x64Bits/solid-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/x64Bits/solid-icons/issues"
+  },
+  "homepage": "https://github.com/x64Bits/solid-icons#readme",
+  "peerDependencies": {
+    "solid-js": "*"
+  }
+}
