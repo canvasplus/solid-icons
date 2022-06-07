@@ -1,22 +1,6 @@
 import type { JSXElement, JSX } from "solid-js/types";
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      svg: {
-        className?: string;
-        style?: object;
-        height?: number | string;
-        width?: number | string;
-        innerHTML: string;
-        xmlns: string;
-        strokeWidth?: string;
-        viewBox?: string;
-      };
-      title: any;
-    }
-  }
-}
+// remove IntrinsicElements declaration 💫
 
 export interface IconTree {
   a: {
